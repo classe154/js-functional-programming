@@ -1,4 +1,4 @@
-const dom =  {
+const dom = {
     playAudioButton: document.getElementById('playAudio'),
     audioElement: document.getElementById('myAudio')
 };
