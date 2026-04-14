@@ -44,7 +44,7 @@ students.forEach(function (student, index) {
     const { image, github_user } = student;
     const cardImage = `
         <div>
-            <img src="${image}" alt="${github_user}">
+            <img class="img-fluid" src="${image}" alt="${github_user}">
         </div>
     `;
     cardImages += cardImage;

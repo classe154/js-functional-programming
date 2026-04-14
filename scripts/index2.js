@@ -25,4 +25,4 @@ function myForEach(array, cb) {
 
 myForEach(names, (param1, param2) => {
     console.log('Log ' + param1, param2);
-})
+});
